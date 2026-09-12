@@ -1,0 +1,25 @@
+# Active navigation
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "Data"
+  pageRef = "data"
+  weight = 20
+
+[[main]]
+  name = "Wind"
+  pageRef = "wind"
+  weight = 30
+
+[[main]]
+  name = "Music"
+  pageRef = "music"
+  weight = 40
+
+[[main]]
+  name = "Project Management"
+  pageRef = "project-management"
+  weight = 50

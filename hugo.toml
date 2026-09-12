@@ -1,0 +1,18 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'Neeraj IITM'
+theme = 'congo'
+defaultContentLanguage = 'en'
+
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 12
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  mainSections = ['data']
+  description = 'Notes, writing, and project updates across data, wind, music, and project work.'
