@@ -29,7 +29,7 @@ weight = 4
 
 [params]
   description = 'Personal website and notes for data, music, project management, and wind.'
-  favicon = '/fav.png'
+  favicon = '/fav.jpg'
 
   [params.navbar]
     brandName = 'Neeraj IITM'
@@ -47,7 +47,7 @@ weight = 4
     title = 'Neeraj'
     subtitle = 'I write about data, sound, and practical systems'
     content = 'This site is my personal knowledge base for notes, ideas, and experiments across data, music, project management, and wind.'
-    image = '/images/my_photo.jpg'
+    image = '/images/me.png'
     roundImage = true
     [params.hero.button]
       enable = true

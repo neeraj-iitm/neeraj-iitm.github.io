@@ -1,0 +1,9 @@
+#hero img,
+.hero img,
+img.rounded-circle {
+  width: 350px !important;
+  height: 350px !important;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
