@@ -1,5 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://neeraj-iitm.github.io/'
+locale = 'en-us'
 title = 'Neeraj IITM'
 theme = 'hugo-profile'
 ignoreLogs = ['warning-goldmark-raw-html']
