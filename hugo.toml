@@ -48,6 +48,7 @@ weight = 4
     subtitle = 'I write about data, sound, and practical systems'
     content = 'This site is my personal knowledge base for notes, ideas, and experiments across data, music, project management, and wind.'
     image = '/images/my_photo.jpg'
+    roundImage = true
     [params.hero.button]
       enable = true
       name = 'Browse posts'
