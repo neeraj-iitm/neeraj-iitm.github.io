@@ -10,6 +10,15 @@
 		
 		
 		
+			<lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/project-management/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>First Project Management Note</title>
+				<link>http://localhost:1313/project-management/first-project-note/</link>
+				<pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/project-management/first-project-note/</guid>
+				<description>&lt;p&gt;This is a starter post for the Project Management section. It initializes the section with a basic structure for planning notes, workflows, and post-mortems.&lt;/p&gt;&#xA;&lt;p&gt;Add more Markdown entries here as the content grows.&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

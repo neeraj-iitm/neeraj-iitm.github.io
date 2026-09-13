@@ -10,6 +10,15 @@
 		
 		
 		
+			<lastBuildDate>Sun, 13 Sep 2026 00:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/wind/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>First Wind Note</title>
+				<link>http://localhost:1313/wind/first-wind-note/</link>
+				<pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/wind/first-wind-note/</guid>
+				<description>&lt;p&gt;This is a starter post for the Wind section. It keeps the section initialized and ready for future notes, observations, and write-ups.&lt;/p&gt;&#xA;&lt;p&gt;Use this folder to add additional wind-related posts as Markdown files.&lt;/p&gt;</description>
+			</item>
 	</channel>
 </rss>

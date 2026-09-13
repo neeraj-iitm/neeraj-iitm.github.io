@@ -1,18 +1,69 @@
 baseURL = 'https://example.org/'
-locale = 'en-us'
+languageCode = 'en-us'
 title = 'Neeraj IITM'
-theme = 'congo'
+theme = 'hugo-profile'
+ignoreLogs = ['warning-goldmark-raw-html']
+
 defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 
-enableRobotsTXT = true
-summaryLength = 0
+[[menu.main]]
+name = 'Data'
+url = '/data'
+weight = 1
 
-[pagination]
-  pagerSize = 12
+[[menu.main]]
+name = 'Music'
+url = '/music'
+weight = 2
 
-[outputs]
-  home = ['HTML', 'RSS', 'JSON']
+[[menu.main]]
+name = 'Project Management'
+url = '/project-management'
+weight = 3
+
+[[menu.main]]
+name = 'Wind'
+url = '/wind'
+weight = 4
 
 [params]
-  mainSections = ['data']
-  description = 'Notes, writing, and project updates across data, wind, music, and project work.'
+  description = 'Personal website and notes for data, music, project management, and wind.'
+  favicon = '/fav.png'
+
+  [params.navbar]
+    brandName = 'Neeraj IITM'
+    [params.navbar.menus]
+      disableAbout = false
+      disableExperience = true
+      disableEducation = true
+      disableProjects = true
+      disableAchievements = true
+      disableContact = true
+
+  [params.hero]
+    enable = true
+    intro = 'Hi, I’m'
+    title = 'Neeraj'
+    subtitle = 'I write about data, sound, and practical systems'
+    content = 'This site is my personal knowledge base for notes, ideas, and experiments across data, music, project management, and wind.'
+    image = '/images/hero.svg'
+    [params.hero.button]
+      enable = true
+      name = 'Browse posts'
+      url = '/data'
+      download = false
+      newPage = false
+
+  [params.about]
+    enable = true
+    title = 'About'
+    image = '/images/me.png'
+    content = """
+    I’m a curious builder who likes to organize learning in public.
+    This site gathers my writing across four areas I continue to explore: data, music, project management, and wind.
+    """
+    [params.about.skills]
+      enable = true
+      title = 'Focus areas'
+      items = ['Data', 'Music', 'Project Management', 'Wind']

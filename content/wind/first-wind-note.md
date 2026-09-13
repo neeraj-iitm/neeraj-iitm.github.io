@@ -2,6 +2,7 @@
 title: "First Wind Note"
 date: 2026-09-13
 draft: false
+tags: []
 ---
 
 This is a starter post for the Wind section. It keeps the section initialized and ready for future notes, observations, and write-ups.

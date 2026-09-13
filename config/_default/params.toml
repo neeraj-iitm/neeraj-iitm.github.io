@@ -1,4 +1,0 @@
-mainSections = ["data"]
-
-[homepage]
-  recentLimit = 5

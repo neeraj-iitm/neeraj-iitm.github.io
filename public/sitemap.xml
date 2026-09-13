@@ -1,45 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-      <url>
-            <loc>http://localhost:1313/home/</loc>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/data/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/music/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/</loc>
-          </url>
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/project-management/</loc>
-          </url>
-    
-  
-    
-  
-    
-      <url>
-            <loc>http://localhost:1313/wind/</loc>
-          </url>
-    
-  
+  <url>
+    <loc>http://localhost:1313/data/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/data/first-post/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/music/first-music-note/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/project-management/first-project-note/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wind/first-wind-note/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/music/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/project-management/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/wind/</loc>
+    <lastmod>2026-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
 </urlset>
