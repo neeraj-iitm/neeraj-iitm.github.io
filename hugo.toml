@@ -1,6 +1,6 @@
 baseURL = 'https://neeraj-iitm.github.io/'
 locale = 'en-us'
-title = 'Neeraj IITM'
+title = 'Neeraj Sahu'
 theme = 'hugo-profile'
 ignoreLogs = ['warning-goldmark-raw-html']
 
@@ -29,7 +29,7 @@ weight = 4
 
 [params]
   description = 'Personal website and notes for data, music, project management, and wind.'
-  favicon = '/fav.jpg'
+  favicon = '/fav.png'
 
   # Keep the theme's base palette dark as well as its dark-class components.
   [params.color]
@@ -46,7 +46,7 @@ weight = 4
     disableThemeToggle = true
 
   [params.navbar]
-    brandName = 'Neeraj IITM'
+    brandName = 'Neeraj Sahu'
     [params.navbar.menus]
       disableAbout = false
       disableExperience = true
