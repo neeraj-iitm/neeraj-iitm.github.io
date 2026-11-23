@@ -18,8 +18,8 @@ url = '/music'
 weight = 2
 
 [[menu.main]]
-name = 'Project Management'
-url = '/project-management'
+name = 'Management'
+url = '/management'
 weight = 3
 
 [[menu.main]]
@@ -28,7 +28,7 @@ url = '/wind'
 weight = 4
 
 [params]
-  description = 'Personal website and notes for data, music, project management, and wind.'
+  description = 'Personal website and notes for   data, music, management, and wind.'
   favicon = '/fav.png'
 
   # Keep the theme's base palette dark as well as its dark-class components.
@@ -60,7 +60,7 @@ weight = 4
     intro = 'Hi, I’m'
     title = 'Neeraj'
     subtitle = 'I write about data, sound, and practical systems'
-    content = 'This site is my personal knowledge base for notes, ideas, and experiments across data, music, project management, and wind.'
+    content = 'This site is my personal knowledge base for notes, ideas, and experiments across     data, music, management, and wind.'
     image = '/images/me.png'
     roundImage = true
     [params.hero.button]
@@ -77,9 +77,9 @@ weight = 4
     content = """
 I’m a curious builder who likes to organize learning in public.
 
-This site gathers my writing across four areas I continue to explore: data, music, project management, and wind.
+This site gathers my writing across four areas I continue to explore: data, music, management, and wind.
 """
     [params.about.skills]
       enable = true
       title = 'Focus areas'
-      items = ['Data', 'Music', 'Project Management', 'Wind']
+      items = ['Data', 'Music', 'Management', 'Wind']
