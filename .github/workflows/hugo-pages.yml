@@ -26,6 +26,13 @@ jobs:
           submodules: false
           fetch-depth: 0
 
+      # themes/hugo-profile is a gitlink without .gitmodules, so checkout leaves it empty.
+      - name: Fetch theme
+        run: |
+          rm -rf themes/hugo-profile
+          git clone https://github.com/gurusabarish/hugo-profile.git themes/hugo-profile
+          git -C themes/hugo-profile checkout ecc48c8db383f2f00ef2f6d20b0559755c9b6104
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
@@ -33,7 +40,7 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --minify
+        run: hugo --minify --cleanDestinationDir
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
