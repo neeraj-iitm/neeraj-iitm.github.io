@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<head><meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
@@ -28,7 +28,7 @@
 
 
 
-<meta property="og:url" content="http://localhost:1313/data/first-post/">
+<meta property="og:url" content="https://neeraj-iitm.github.io/data/first-post/">
 	<meta property="og:site_name" content="Neeraj IITM">
 	<meta property="og:title" content="First Data Post">
 	<meta property="og:description" content="This is a sample blog post in the Data section. Add new posts here by creating more Markdown files in the same folder.">
@@ -56,13 +56,13 @@
 
 <style>
     :root {
-        --text-color: #343a40;
-        --text-secondary-color: #6c757d;
-        --text-link-color: #007bff;
-        --background-color: #eaedf0;
-        --secondary-background-color: #64ffda1a;
-        --primary-color: #007bff;
-        --secondary-color: #f8f9fa;
+        --text-color: #e4e6eb;
+        --text-secondary-color: #b0b3b8;
+        --text-link-color: #ffffff;
+        --background-color: #18191a;
+        --secondary-background-color: #212529;
+        --primary-color: #ffffff;
+        --secondary-color: #212529;
 
          
         --text-color-dark: #e4e6eb;
@@ -107,6 +107,7 @@
     }
 </style>
 
+<meta name="color-scheme" content="dark">
 <link rel="stylesheet" href="/css/custom.css" media="all">
 
 
@@ -118,7 +119,6 @@
 
 
   
-  
 
   <title>
 First Data Post | Neeraj IITM
@@ -126,39 +126,11 @@ First Data Post | Neeraj IITM
   </title>
 </head>
 
-<body class="light">
-  
-  
-<script>
-    let localStorageValue = localStorage.getItem("pref-theme");
-    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
-
-    switch (localStorageValue) {
-        case "dark":
-            document.documentElement.classList.add('dark');
-            document.body.classList.add('dark');
-            break;
-        case "light":
-            document.body.classList.remove('dark');
-            document.documentElement.classList.remove('dark');
-            break;
-        default:
-            if (mediaQuery) {
-                document.documentElement.classList.add('dark');
-                document.body.classList.add('dark');
-            }
-            break;
-    }
-</script>
-
-
-
-
+<body class="dark">
 
 <header id="profileHeader">
     <nav class="pt-3 navbar navbar-expand-lg ">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
-            
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
                 <img src="/fav.jpg" width="30" height="30"
@@ -174,7 +146,6 @@ First Data Post | Neeraj IITM
                 </div>
             
 
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
                 aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                 <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
@@ -182,7 +153,6 @@ First Data Post | Neeraj IITM
                 </svg>
             </button>
 
-            
             <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
                 <ul class="navbar-nav ms-auto text-center">
                     
@@ -215,15 +185,12 @@ First Data Post | Neeraj IITM
 
                     
                     
-                    
-                    
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/data" title="">
                             
                             Data
                         </a>
                     </li>
-                    
                     
                     
                     
@@ -236,14 +203,12 @@ First Data Post | Neeraj IITM
                     
                     
                     
-                    
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="/project-management" title="">
                             
                             Project Management
                         </a>
                     </li>
-                    
                     
                     
                     
@@ -255,32 +220,7 @@ First Data Post | Neeraj IITM
                     </li>
                     
                     
-
-                    <li class="nav-item navbar-text">
-                        
-                        <div class="text-center">
-                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
-                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                                </svg>
-                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                    <circle cx="12" cy="12" r="5"></circle>
-                                    <line x1="12" y1="1" x2="12" y2="3"></line>
-                                    <line x1="12" y1="21" x2="12" y2="23"></line>
-                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                                    <line x1="1" y1="12" x2="3" y2="12"></line>
-                                    <line x1="21" y1="12" x2="23" y2="12"></line>
-                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                                </svg>
-                            </button>
-                        </div>
-                    </li>
-                    
-
-                </ul>
-
+</ul>
             </div>
         </div>
     </nav>
@@ -332,22 +272,22 @@ First Data Post | Neeraj IITM
             <div class="social-content">
               <ul class="list-inline">
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text= http%3a%2f%2flocalhost%3a1313%2fdata%2ffirst-post%2f">
+                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text= https%3a%2f%2fneeraj-iitm.github.io%2fdata%2ffirst-post%2f">
                     <i class="fab fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='https://twitter.com/share?text=First%20Data%20Post&url=http%3a%2f%2flocalhost%3a1313%2fdata%2ffirst-post%2f&hashtags='>
+                  <a target="_blank" href='https://twitter.com/share?text=First%20Data%20Post&url=https%3a%2f%2fneeraj-iitm.github.io%2fdata%2ffirst-post%2f&hashtags='>
                     <i class="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href="https://api.whatsapp.com/send?text=First%20Data%20Post: http%3a%2f%2flocalhost%3a1313%2fdata%2ffirst-post%2f">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=First%20Data%20Post: https%3a%2f%2fneeraj-iitm.github.io%2fdata%2ffirst-post%2f">
                     <i class="fab fa-whatsapp"></i>
                   </a>
                 </li>
                 <li class="list-inline-item text-center">
-                  <a target="_blank" href='mailto:?subject=First%20Data%20Post&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fdata%2ffirst-post%2f'>
+                  <a target="_blank" href='mailto:?subject=First%20Data%20Post&amp;body=Check%20out%20this%20site https%3a%2f%2fneeraj-iitm.github.io%2fdata%2ffirst-post%2f'>
                     <i class="fa fa-envelope"></i>
                   </a>
                 </li>
@@ -431,7 +371,7 @@ First Data Post | Neeraj IITM
         <div class="col-md-4 text-center">
             
                 <div class="pb-2">
-                    <a href="http://localhost:1313/" title="Neeraj IITM">
+                    <a href="https://neeraj-iitm.github.io/" title="Neeraj IITM">
                         <img alt="Footer logo" src="/fav.jpg"
                             height="40px" width="40px">
                     </a>
@@ -452,43 +392,15 @@ First Data Post | Neeraj IITM
         </div>
     </div>
 </div>
-</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.documentElement.classList.add('dark');
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-        document.documentElement.classList.remove('dark');
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.documentElement.classList.add('dark');
-        document.body.classList.add('dark');
-    }
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            document.documentElement.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            document.documentElement.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
+</footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script><script>
     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
     var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
         return new bootstrap.Tooltip(tooltipTriggerEl)
     })
-
 </script>
 
 
     <script>
-      
       window.searchIndexURL = "/index.json";
     </script>
     <script src="/js/search.js"></script>
@@ -501,9 +413,7 @@ First Data Post | Neeraj IITM
 
 
 
-
-
-  <section id="search-content" class="py-2">
+<section id="search-content" class="py-2">
     <div class="container" id="search-results"></div>
   </section>
 </body>

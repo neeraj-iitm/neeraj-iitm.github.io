@@ -31,6 +31,20 @@ weight = 4
   description = 'Personal website and notes for data, music, project management, and wind.'
   favicon = '/fav.jpg'
 
+  # Keep the theme's base palette dark as well as its dark-class components.
+  [params.color]
+    textColor = '#e4e6eb'
+    secondaryTextColor = '#b0b3b8'
+    textLinkColor = '#ffffff'
+    backgroundColor = '#18191a'
+    secondaryBackgroundColor = '#212529'
+    primaryColor = '#ffffff'
+    secondaryColor = '#212529'
+
+  [params.theme]
+    defaultTheme = 'dark'
+    disableThemeToggle = true
+
   [params.navbar]
     brandName = 'Neeraj IITM'
     [params.navbar.menus]
@@ -61,9 +75,10 @@ weight = 4
     title = 'About'
     image = '/images/my_photo.jpg'
     content = """
-    I’m a curious builder who likes to organize learning in public.
-    This site gathers my writing across four areas I continue to explore: data, music, project management, and wind.
-    """
+I’m a curious builder who likes to organize learning in public.
+
+This site gathers my writing across four areas I continue to explore: data, music, project management, and wind.
+"""
     [params.about.skills]
       enable = true
       title = 'Focus areas'

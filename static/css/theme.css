@@ -1,0 +1,16 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+#footer-socialNetworks-github-svg-path {
+  fill: #ffffff;
+}
+
+.text-secondary {
+  color: var(--text-secondary-color) !important;
+}

@@ -1,9 +1,19 @@
-#hero img,
-.hero img,
-img.rounded-circle {
-  width: 350px !important;
-  height: 350px !important;
+#hero .image img,
+#about .image img {
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1;
   object-fit: cover;
   display: block;
   margin: 0 auto;
+}
+
+#about .content {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+#about .content ul {
+  grid-template-columns: repeat(2, minmax(0, 200px));
 }
